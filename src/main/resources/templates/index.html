@@ -2,80 +2,80 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-    <title>Tp3_Rodriguez_Alan</title>
+<link rel="stylesheet" href="css/estilos.css">
+<title>Tp3_Rodriguez_Alan</title>
 </head>
 <body>
-<header>
+<header id="header">
 	<h1>Por Que Usar Java</h1>
-</header>
-<nav>
-            <ul>
-                <li><a href="">Principal</a></li>
-                <li><a href="">Programas</a></li>
-                <li><a href="">Compatibilidad</a></li>
-                <li><a href="">Contactos</a></li>
+	<nav class="navegador">
+            <ul class="lista-nav">
+                <li><a class="selector" href="templates/..">Principal</a></li>
+                <li><a class="selector" href="">Programas</a></li>
+                <li><a class="selector" href="form-cliente">Registrarse</a></li>
+                <li><a class="selector" href="">Contactos</a></li>
             </ul>
 </nav>
-<main>
-	<section id="seccion1">
-	<h2>Java</h2>
-	<h3>subtitulo1</h3> 
-	<p>Java es un lenguaje de programación popular conocido por su portabilidad y seguridad. 
+</header>
+<div class="container">
+<main class="main">
+	<section class="seccion">
+	<h2 class="titulo">Java</h2>
+	<h3 class="titulo">subtitulo1</h3> 
+	<p class="texto">Java es un lenguaje de programación popular conocido por su portabilidad y seguridad. 
 		Diseñado para ser fácil de aprender y entender, Java es ampliamente utilizado en el desarrollo de aplicaciones empresariales, web y móviles. Con su máquina virtual Java (JVM), el código Java puede ejecutarse en cualquier plataforma, lo que lo convierte en una opción atractiva para aplicaciones que necesitan funcionar en diferentes sistemas operativos. 
 		Además, Java cuenta con una gran comunidad de desarrolladores y una amplia gama de herramientas y frameworks disponibles.</p>
-			<ul>
+			<ul class="lista">
                 <li>java8</li>
                 <li>java12</li>
                 <li>java17</li>
             </ul>
 	</section>
-	<section id="seccion2">
-	<h2>C++</h2>
-	<h3>subtitulo2</h3> 
-	<p> Lenguaje potente y eficiente, ideal para sistemas embebidos, juegos y software de bajo nivel. 
+	<section class="seccion">
+	<h2 class="titulo">C++</h2>
+	<h3 class="titulo">subtitulo2</h3> 
+	<p class="texto"> Lenguaje potente y eficiente, ideal para sistemas embebidos, juegos y software de bajo nivel. 
 	Ofrece control de memoria y alto rendimiento</p>
-	<!--agregue el "style= "border: 1px solid black;"" debido a que en la pagina validator al usar "border="1" 
-	 saltaba el error "Error: The border attribute on the table element is obsolete. Use CSS instead.". 
-	 Sera corregido a la hora de poder usar Css. -->
-	<table style= "border: 1px solid black;"> 
+	<table class="tabla"> 
      <tr>										
-       <th style= "border: 1px solid black;">C++</th>
-       <th style= "border: 1px solid black;">Java</th>
+       <th class="titulo-tabla">C++</th>
+       <th class="titulo-tabla">Java</th>
      </tr>
      <tr>
-       <td style= "border: 1px solid black;">Rápido y eficiente</td>
-       <td style= "border: 1px solid black;">Rendimiento moderado </td>
+       <td class="contenido-tabla">Rápido y eficiente</td>
+       <td class="contenido-tabla">Rendimiento moderado </td>
      </tr>
     </table>
 	</section>
-	<section id="seccion3">
-	<h2>Python</h2>
-	<h3>subtitulo3</h3> 
-	<p>lorem</p>
-	<table style= "border: 1px solid black;">
+	<section class="seccion">
+	<h2 class="titulo">Python</h2>
+	<h3 class="titulo">subtitulo3</h3> 
+	<p class="texto">lorem</p>
+	<table class="tabla">
      <tr>
-       <th style= "border: 1px solid black;">Python</th>
-       <th style= "border: 1px solid black;">Java</th>
+       <th class="titulo-tabla">Python</th>
+       <th class="titulo-tabla">Java</th>
      </tr>
      <tr>
-       <td style= "border: 1px solid black;">Rendimiento moderado </td>
-       <td style= "border: 1px solid black;">Rendimiento moderado </td>
+       <td class="contenido-tabla">Rendimiento moderado </td>
+       <td class="contenido-tabla">Rendimiento moderado </td>
      </tr>
     </table>
 	</section>
 </main>
-	<aside>
-        <h2>Descarga Java</h2>
-        <a href="https://www.java.com/es/download/ie_manual.jsp">
-        <img src="images/java.png" alt="Imagen Adicional" width="200">
+<aside class="aside">
+        <h2 class="titulo">Descarga Java</h2>
+        <a class="nav-java" href="https://www.java.com/es/download/ie_manual.jsp">
+        <img class="imagen" src="images/java.png" alt="Imagen Adicional" width="200">
     	</a>
-    </aside>
-<footer>
-        <p>Contacto:estudios345@gmail.com</p>
-        <p>Redes</p>
-        <ul>
-        	<li><a href="#">Instagram</a></li>
-            <li><a href="#">Twitter</a></li>
+ </aside>
+</div>
+<footer id="footer">
+        <p class="texto">Contacto:estudios345@gmail.com</p>
+        <p class="texto">Redes</p>
+        <ul class="lista">
+        	<li><a class="nav-redes" href="https://www.instagram.com/escuelademinas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></li>
+            <li><a class="nav-redes" href="https://www.facebook.com/escminasunju/?locale=es_LA">Facebook</a></li>
         </ul>
 </footer>
 </body>

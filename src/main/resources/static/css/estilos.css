@@ -1,0 +1,129 @@
+@charset "UTF-8";
+#header {
+    background-color: #2f4550;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #e9ecef;
+    font-family: Arial, sans-serif;
+}
+body{
+	background-color: #b8dbd9;
+	margin: 0;
+    padding: 0;
+}
+/* Estilo para el menú de navegación */
+.navegador {
+    overflow: hidden;
+}
+.lista-nav a{
+	float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 2px 40px;
+    text-decoration: none;
+}
+.lista-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu a:hover {
+    background-color: #495057;
+}
+
+/* Estilo para el contenido principal */
+.main-content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para las secciones del contenido principal */
+.section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* Estilo para los títulos de sección */
+.section-title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Estilo para el contenido dentro de las secciones */
+.section-content {
+    margin-bottom: 10px;
+}
+
+.section-content p,
+.section-content ul,
+.section-content ol,
+.section-content table {
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+/* Estilo para el contenido adicional */
+.additional-content {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+}
+
+.additional-content img {
+    display: block;
+    margin-bottom: 10px;
+}
+.cuadro{
+    display: block; /* Hace que el label ocupe toda la línea */
+    font-size: 0.9em; /* Ajusta el tamaño de fuente de los labels */
+}
+.tabla{
+    border: 1px solid black;
+    font-size: 1em;
+    margin: 10px;
+    font-weight: bold;
+}
+.titulo-tabla{
+	border: 1px solid black;
+}
+.contenido-tabla{
+	border: 1px solid black;
+}
+/* Estilo para el pie de página */
+.container {
+    display: flex;
+    margin: 20px;
+}
+.aside{
+	 width: 25%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#footer {
+    background-color: #586f7c;
+    color: black;
+    padding: 0px;
+    width: 100%;
+    bottom: 0;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+   	padding: 0;
+    margin: 0;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
